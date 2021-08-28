@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.secretmessages"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\SecretMessages\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\SecretMessages\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\SecretMessages\app\src\main\AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="true"
+12-->C:\SecretMessages\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\Артём\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\SecretMessages\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\SecretMessages\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\SecretMessages\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\SecretMessages\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/Theme.SecretMessages" >
+19-->C:\SecretMessages\app\src\main\AndroidManifest.xml:11:9-52
+20        <activity
+20-->C:\SecretMessages\app\src\main\AndroidManifest.xml:12:9-26:20
+21            android:name="com.example.secretmessages.MainActivity"
+21-->C:\SecretMessages\app\src\main\AndroidManifest.xml:13:13-41
+22            android:label="@string/app_name"
+22-->C:\SecretMessages\app\src\main\AndroidManifest.xml:14:13-45
+23            android:theme="@style/Theme.SecretMessages.NoActionBar" >
+23-->C:\SecretMessages\app\src\main\AndroidManifest.xml:15:13-68
+24            <intent-filter>
+24-->C:\SecretMessages\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\SecretMessages\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\SecretMessages\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\SecretMessages\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\SecretMessages\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29            <intent-filter>
+29-->C:\SecretMessages\app\src\main\AndroidManifest.xml:21:13-25:29
+30                <action android:name="android.intent.action.SEND" />
+30-->C:\SecretMessages\app\src\main\AndroidManifest.xml:22:13-65
+30-->C:\SecretMessages\app\src\main\AndroidManifest.xml:22:21-62
+31
+32                <category android:name="android.intent.category.DEFAULT" />
+32-->C:\SecretMessages\app\src\main\AndroidManifest.xml:23:13-72
+32-->C:\SecretMessages\app\src\main\AndroidManifest.xml:23:23-69
+33
+34                <data android:mimeType="text/*" />
+34-->C:\SecretMessages\app\src\main\AndroidManifest.xml:24:13-47
+34-->C:\SecretMessages\app\src\main\AndroidManifest.xml:24:19-44
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

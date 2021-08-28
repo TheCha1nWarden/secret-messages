@@ -1,0 +1,13 @@
+com/example/secretmessages/SecondFragment.java
+ com.example.secretmessages.SecondFragment
+ com.example.secretmessages.SecondFragment$1
+com/example/secretmessages/BuildConfig.java
+ com.example.secretmessages.BuildConfig
+com/example/secretmessages/FirstFragment.java
+ com.example.secretmessages.FirstFragment
+ com.example.secretmessages.FirstFragment$1
+com/example/secretmessages/MainActivity.java
+ com.example.secretmessages.MainActivity
+ com.example.secretmessages.MainActivity$1
+ com.example.secretmessages.MainActivity$2
+ com.example.secretmessages.MainActivity$3
